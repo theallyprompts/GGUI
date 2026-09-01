@@ -3,6 +3,14 @@
 A lightweight, browser-only front-end for [Runware](https://runware.ai)'s API, styled to
 feel familiar to people coming from Civitai's on-site generator.
 
+## 🌐 Live at generic-generative-ui.pages.dev
+
+**You don't need to build or run anything to use this.** The app is deployed and ready to
+use right now at **[generic-generative-ui.pages.dev](https://generic-generative-ui.pages.dev/)**
+— just open it, paste in your Runware API key, and generate. The rest of this README
+(build/deploy instructions) is only relevant if you want to run your own instance or
+contribute to the code.
+
 ## What this is
 
 - **Client-only.** There is no backend. The app runs entirely in your browser and talks
