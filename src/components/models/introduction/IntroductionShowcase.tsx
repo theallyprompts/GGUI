@@ -45,27 +45,27 @@ function ShowcaseLightbox({ item, onClose }: { item: ShowcaseItem; onClose: () =
 
 const SHOWCASE_ITEMS: ShowcaseItem[] = [
   {
-    imageSrc: '/screenshots/model-picker.png',
+    imageSrc: `${import.meta.env.BASE_URL}screenshots/model-picker.png`,
     title: 'Choose a model',
     description: 'The Model dropdown groups everything by Image, Video, and Utilities — search to filter.',
   },
   {
-    imageSrc: '/screenshots/generation-form.png',
+    imageSrc: `${import.meta.env.BASE_URL}screenshots/generation-form.png`,
     title: 'Set up your generation',
     description: 'Each model has its own form — prompt, dimensions, reference images, and advanced settings.',
   },
   {
-    imageSrc: '/screenshots/prompt-studio.png',
+    imageSrc: `${import.meta.env.BASE_URL}screenshots/prompt-studio.png`,
     title: 'Prompt Studio',
     description: 'Save full prompts or reusable fragments, and load them back into any compatible model.',
   },
   {
-    imageSrc: '/screenshots/manage-media.png',
+    imageSrc: `${import.meta.env.BASE_URL}screenshots/manage-media.png`,
     title: 'Manage Media',
     description: 'Upload images you reuse often so they\'re one click away as input, anywhere in the app.',
   },
   {
-    imageSrc: '/screenshots/settings.png',
+    imageSrc: `${import.meta.env.BASE_URL}screenshots/settings.png`,
     title: 'Settings',
     description: 'Your API key, theme, default model, spend caps, and backup/restore all live here.',
   },
